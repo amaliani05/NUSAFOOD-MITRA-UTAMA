@@ -1,0 +1,462 @@
+/* ===========================
+   CV Nusafood Mitra Utama
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+/* HEADER */
+
+header{
+    width:100%;
+    height:80px;
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 80px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    margin-right:15px;
+    object-fit:cover;
+}
+
+.logo h2{
+    color:#b30000;
+    font-size:28px;
+}
+
+.logo p{
+    color:#777;
+    font-size:14px;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+}
+
+nav a{
+    text-decoration:none;
+    color:#444;
+    margin-left:30px;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover,
+nav a.active{
+    color:#b30000;
+}
+
+.btn-login{
+    background:#b30000;
+    color:#fff!important;
+    padding:10px 24px;
+    border-radius:30px;
+}
+
+.btn-login:hover{
+    background:#8b0000;
+}
+
+/* BANNER */
+
+.banner{
+    width:100%;
+    height:260px;
+    background:linear-gradient(135deg,#c40000,#ff4d4d);
+}
+
+/* CARD PROFIL */
+
+.company-card{
+    width:85%;
+    background:#fff;
+    margin:-90px auto 40px;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.company-logo img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:6px solid white;
+    object-fit:cover;
+}
+
+.company-info{
+    margin-left:30px;
+}
+
+.company-info h1{
+    font-size:38px;
+    color:#b30000;
+}
+
+.kategori{
+    margin-top:10px;
+    color:#666;
+}
+
+.alamat{
+    margin-top:8px;
+    color:#888;
+}
+
+/* MENU */
+
+.menu-tab{
+    width:85%;
+    margin:auto;
+    display:flex;
+    border-bottom:2px solid #ddd;
+    margin-bottom:40px;
+}
+
+.menu-tab a{
+    text-decoration:none;
+    color:#555;
+    padding:18px 25px;
+    font-weight:600;
+}
+
+.menu-tab a:hover{
+    color:#b30000;
+    border-bottom:3px solid #b30000;
+}
+
+/* CONTENT */
+
+.content{
+    width:85%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:30px;
+    margin-bottom:60px;
+}
+
+.left,
+.info-box{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.left h2,
+.info-box h3{
+    color:#b30000;
+    margin-bottom:20px;
+}
+
+.left p{
+    line-height:30px;
+    margin-bottom:15px;
+    text-align:justify;
+}
+
+.left ul{
+    margin-left:20px;
+}
+
+.left li{
+    margin-bottom:12px;
+}
+
+.info-box p{
+    line-height:28px;
+}
+
+.info-box hr{
+    margin:18px 0;
+}
+
+/* HERO PAGE */
+
+.hero-page{
+    background:linear-gradient(135deg,#c40000,#ff4d4d);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero-page h1{
+    font-size:42px;
+}
+
+.hero-page p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* CONTAINER */
+
+.container{
+    width:85%;
+    margin:40px auto;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+/* ===========================
+   GRID
+=========================== */
+
+.grid2{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.grid3{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.grid4{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.judul{
+    text-align:center;
+    color:#b30000;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.visi{
+    text-align:center;
+    font-size:24px;
+    color:#b30000;
+    margin-top:40px;
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.card{
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.card h2{
+    color:#b30000;
+    margin-bottom:18px;
+}
+
+.card h3{
+    color:#b30000;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:28px;
+    text-align:justify;
+}
+
+.card ul{
+    margin-left:20px;
+}
+
+.card li{
+    margin-bottom:12px;
+}
+
+/* ===========================
+   PRODUK
+=========================== */
+
+.produk-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.produk-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.produk-card:hover{
+    transform:translateY(-10px);
+}
+
+.produk-card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.produk-card:hover img{
+    transform:scale(1.08);
+}
+
+.produk-content{
+    padding:20px;
+}
+
+.produk-content h3{
+    color:#b30000;
+    margin-bottom:12px;
+}
+
+.produk-content p{
+    color:#666;
+    line-height:27px;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    margin-top:70px;
+    background:#b30000;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:1000px){
+
+header{
+    padding:20px;
+    flex-direction:column;
+    height:auto;
+}
+
+nav{
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:20px;
+}
+
+nav a{
+    margin:10px;
+}
+
+.company-card{
+    flex-direction:column;
+    text-align:center;
+}
+
+.company-info{
+    margin:20px 0 0;
+}
+
+.content{
+    grid-template-columns:1fr;
+}
+
+.grid2,
+.grid3,
+.grid4{
+    grid-template-columns:1fr;
+}
+
+.menu-tab{
+    overflow:auto;
+}
+
+.hero-page h1{
+    font-size:34px;
+}
+
+.logo h2{
+    font-size:22px;
+}
+
+}
+
+@media(max-width:600px){
+
+.company-logo img{
+    width:100px;
+    height:100px;
+}
+
+.company-info h1{
+    font-size:28px;
+}
+
+.banner{
+    height:180px;
+}
+
+}
+
+/* ===========================
+   LOGIN FORM
+=========================== */
+
+form label{
+    font-weight:600;
+}
+
+form input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+    margin-top:8px;
+}
+
+form input:focus{
+    outline:none;
+    border:1px solid #b30000;
+}
+
+form button{
+    font-size:16px;
+    padding:14px;
+}
